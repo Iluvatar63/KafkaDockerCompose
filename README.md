@@ -11,7 +11,7 @@ This project is used to simulate a Kafka environment close to the production one
 1 AKHQ
 ~~1 NS4Kafka~~
 
-# How to use it?
+# How to run it?
 ## Michelin Docker Artifactory
 If you are trying to get an image from Michelin Artifactory, use this command lines in PowerShell and authenticate using your account:
 ```
@@ -40,3 +40,15 @@ Run Docker.
 ```
 docker-compose -f "docker-compose.yaml" up -d --build
 ```
+
+# How to use it?
+## AKHQ
+You can access to your AKHQ few minutes after docker start up using : http://localhost:9998
+## Control center
+You can access to the Control Center using : http://localhost:9021/
+
+## Schema Registry
+http://localhost:8084
+
+## Brokers
+localhost:9092,localhost:9192,localhost:9292
