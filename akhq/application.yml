@@ -1,0 +1,11 @@
+---
+akhq:
+  connections:
+    df4mgbl0:
+      properties:
+        bootstrap.servers: "kafka0:29092"
+      schema-registry:
+        url: "http://schema-registry:8081"
+      connect:
+        - name: connect-1
+          url: "http://kafka-connect:8083"
